@@ -3,7 +3,7 @@ Written by Opeyemi Ajibola-James, PhD, Geo Inheritance Limited.
 License: This work is licensed under Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International. https://creativecommons.org/licenses/by-nc-nd/4.0/
 
 # LIST OF APPENDICES
-# Appendix 1: Data preparation (Data Extraction, Transformation and Cleaning Algorithms) 
+# Appendix 1: Data Preparation (Data Extraction, Transformation and Cleaning Algorithms) 
 #Python 3.10.2 scripts with appropriate libraries were executed in Spyder IDE (Integrated #Development Environment) 5.2.2 software to achieve the tasks in this appendix.
 #The lines of codes in this particular appendix are relevant to subsection 
 #3.2 Data preparation
