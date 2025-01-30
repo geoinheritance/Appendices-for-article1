@@ -285,7 +285,7 @@ plot(L0L2_CDPSI, gamma = 5.0000000, showLines = TRUE)
 #The relevant libraries in the R 4.4.1/ R-studio 2024.04.2+764 were imported to achieve the tasks in #this appendix.
 #The lines of codes in this particular appendix are relevant to subsection 
 #3.6 Determination of PPVs importance and collinearity with L0 models and algorithms
-#A pairwise Pearson’s correlation analysis, which involved creation of a data frame containing pairs of predictors and their correlation values with collinear library and a function cor_df was performed to validate the assumption that a relatively perfect collinearity exits between any 2 PPVs if the #coefficient values of at least their #first 4 digits are exactly the same in the L0 models.
+#A pairwise Pearson’s correlation analysis, which involved creation of a data frame containing pairs of predictors and their correlation values with collinear library and a #function cor_df was performed to validate the assumption that a relatively perfect collinearity exits between any 2 PPVs if the #coefficient values of at least their #first 4 digits are exactly the same in the L0 models.
 
 #1. DATA LOADING
 #The appropriate library was imported.
@@ -309,19 +309,8 @@ data_var_sss <- data_var$sss
 #The predictor variables were stored as
 data_var_pred <- c("ws", "hws", "sst", "adt", "sla", "precip")
 
-#2. COLLINEARITY ARGUMENT
-#The argument for Collinearity was declared
-collAss_predictors <- collinear(
-  df = data_var,
-  response = "sss",
-  predictors = data_var_pred,
-  preference_order = NULL,
-  max_cor = 0.5,
-  max_vif = 2.5,
-)
-
-#3. PAIRWISE PEARSON'S CORRELATION ANALYSIS
-#Validated the assumption that a relatively perfect collinearity exits between any 2 PPVs if the #coefficient values of at #least their #first 4 digits are exactly the same in the L0 models.
+#2. PAIRWISE PEARSON'S CORRELATION ANALYSIS
+#Validated the assumption that a relatively perfect collinearity exits between any 2 PPVs if the #coefficient values of at least their #first 4 digits are exactly the same #in the L0 models.
 collAssVal_predictors <- cor_df(
   df = data_var,
   response = "sss",
