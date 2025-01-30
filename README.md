@@ -1,7 +1,6 @@
-# Appendices-for-article1
 # An approach for good modelling and forecasting of sea surface salinity in a coastal zone using machine learning LASSO regression models built with sparse satellite time series datasets
-#Written by Opeyemi Ajibola-James, PhD, Geo Inheritance Limited.
-#License: This work is licensed under Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International. https://creativecommons.org/licenses/by-nc-nd/4.0/
+Written by Opeyemi Ajibola-James, PhD, Geo Inheritance Limited.
+License: This work is licensed under Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International. https://creativecommons.org/licenses/by-nc-nd/4.0/
 
 # LIST OF APPENDICES
 # Appendix 1: Data preparation (Data Extraction, Transformation and Cleaning Algorithms) 
